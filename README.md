@@ -22,9 +22,11 @@ node scripts/check-product-loader.mjs
 node scripts/check-printer.mjs
 ```
 
-Те же проверки запускаются в GitHub Actions после обновления `main` и в pull request. Приватность репозитория сохраняется. Автоматическая публикация сайта из GitHub пока не подключена.
+Те же проверки запускаются в GitHub Actions после обновления `main` и в pull request. Репозиторий публичный по разрешению владельца. Workflow `.github/workflows/pages.yml` проверяет сайт и автоматически публикует каталог `dist/` после изменений в `main`.
 
-Текущая размещённая версия: https://yazhemoh-workshop.chubatovz.chatgpt.site/. Она обновляется отдельно; коммит в GitHub сам по себе её не меняет.
+Основной адрес сайта: https://vaniazet.github.io/yazhemoh-workshop/.
+
+Предыдущая версия в ChatGPT Sites: https://yazhemoh-workshop.chubatovz.chatgpt.site/. Она хранится отдельно и не обновляется коммитами в GitHub.
 
 ## Запуск
 

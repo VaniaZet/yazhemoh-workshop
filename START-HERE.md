@@ -3,7 +3,8 @@
 Рабочая версия сайта, обновлённая 18 ноября 2026 года.
 Основной репозиторий разработки: https://github.com/VaniaZet/yazhemoh-workshop.
 Основана на опубликованной версии Sites 3 (коммит 3e0bdc73745bed4cbb24f343e8df077fccc86c27).
-Новые изменения пока не опубликованы: соединение с сервером исходников Sites недоступно.
+Публикация настроена через GitHub Pages: https://vaniazet.github.io/yazhemoh-workshop/.
+После изменений в main workflow Publish site проверяет и публикует каталог dist/. Старый адрес Sites обновляется отдельно.
 
 ## Запуск в Windows
 
